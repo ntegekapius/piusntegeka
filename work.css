@@ -1,0 +1,115 @@
+.bio{
+    text-align: center;
+    display: inline-block;
+    background-color: blue;
+    height: 200px;
+    width: 250px;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+}
+
+.bio:hover{
+    background-color: magenta;
+    transition: 0.8s;
+    
+}
+.photo{
+    text-align: center;
+    display: inline-block;
+    background-color: brown;
+    height: 200px;
+    width: 250px;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    left: 509px;
+    top: 100px;
+}
+    
+
+    
+
+
+.photo:hover{
+    background-color: aquamarine;
+    transition: 0.8s;
+
+}
+.education{
+    text-align: center;
+    display: inline-block;
+    background-color: chartreuse;
+    height: 150px;
+    width: 250px;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+    left: 259px;
+
+}
+.education:hover{
+    background-color: aqua;
+    transition: 0.8s;
+}
+.hobbies{
+    text-align: center;
+    background-color: darkgoldenrod;
+    height: 200px;
+    width: 250px;
+    color: black;
+    cursor:pointer;
+    position: absolute;
+    top: 450px;
+}
+.hobbies:hover{
+    background-color: cadetblue;
+    transition: 0.8s;
+}
+
+.contact{
+    text-align: center;
+    background-color: darkolivegreen;
+    height: 200px;
+    width: 250px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 450px;
+    left: 509px;
+
+
+}
+.contact:hover{
+    background-color: blue;
+    transition: 0.8s;
+}
+input[type=submit]:hover{
+    background-color: chartreuse;
+}
+input[type=submit]{
+    background-color: crimson;
+    color: azure;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text],select,textarea{
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: content-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
